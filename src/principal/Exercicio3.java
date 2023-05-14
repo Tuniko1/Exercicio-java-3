@@ -4,19 +4,19 @@ import javax.swing.JOptionPane;
 
 public class Exercicio3 {
 
-	//public void Pro1(){
-	public static void main(String[] args) {
-		//FaÁa um programa que receba o salario base de um funcion·rio (salario bruto) faÁa o desconto de inss 5% e IR 11% 
-		//mostre o valor dos descontos, e o valor do salario liquido;
+	public void Pro1(){
+	//public static void main(String[] args) {
+		/*Fa√ßa um programa que receba o salario base de um funcion√°rio (salario bruto) fa√ßa o desconto de inss 5% e IR 11% 
+		mostre o valor dos descontos, e o valor do salario liquido;*/
 
 		
 		double salarioLiquido;
 		double salarioLiquido1;
 				
 		String salBruto= "";
-	    salBruto= JOptionPane.showInputDialog("Digite o sal·rio base (bruto): ");
+	    salBruto= JOptionPane.showInputDialog("Digite o sal√°rio base (bruto): ");
 	        
-	    String msg = "o sal·rio lÌquido È: ";
+	    String msg = "o sal√°rio l√≠quido √©: R$ ";
 	    
 	    //String msg2 = "";
 	    
@@ -25,7 +25,7 @@ public class Exercicio3 {
 	    JOptionPane.showMessageDialog(null, msg + salarioLiquido1);
 	}
 	public void Pro2(){
-		// FaÁa um aplicativo que receba o ano de nascimento e o ano atual e mostre na tela sua idade;
+		// Fa√ßa um aplicativo que receba o ano de nascimento e o ano atual e mostre na tela sua idade;
 		
 	   	int idade;
 	    
@@ -35,7 +35,7 @@ public class Exercicio3 {
 	    String anoAtual= "";
 	    anoAtual = JOptionPane.showInputDialog("Digite o ano atual: ");
 	    
-	    String msg = "Sua idade È: ";
+	    String msg = "Sua idade √©: ";
 	    
 	    String msg2 = " anos";
 	    
@@ -43,6 +43,7 @@ public class Exercicio3 {
 	    JOptionPane.showMessageDialog(null, msg + idade + msg2);
 	    
 
-	}
-
+	          
+	         
+   }
 }
